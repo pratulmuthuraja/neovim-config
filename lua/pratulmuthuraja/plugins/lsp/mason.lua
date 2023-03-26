@@ -8,6 +8,11 @@ if not mason_lspconfig_status then
     return
 end
 
+local mason_null_ls_status, mason_null_ls = pcall(require, "mason-null-ls")
+if not mason_null_ls then
+    return
+end
+
 mason.setup()
 
 -- check mason documentation for a list of supported LSP
@@ -20,6 +25,14 @@ mason_lspconfig.setup({
         "cssls",
         "tailwindcss",
         "marksman",
+    }
+})
+
+mason_null_ls.setup({
+    ensure_installed = {
+        "prettier",
+        "style_lua",
+        "eslint_d",
     }
 })
 

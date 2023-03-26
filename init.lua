@@ -10,4 +10,8 @@ require("pratulmuthuraja.plugins.nvim-cmp")
 require("pratulmuthuraja.plugins.lsp.mason")
 require("pratulmuthuraja.plugins.lsp.lspsaga")
 require("pratulmuthuraja.plugins.lsp.lspconfig")
+require("pratulmuthuraja.plugins.lsp.null-ls")
+require("pratulmuthuraja.plugins.autopairs")
+require("pratulmuthuraja.plugins.treesitter")
+require("pratulmuthuraja.plugins.gitsigns")
 
