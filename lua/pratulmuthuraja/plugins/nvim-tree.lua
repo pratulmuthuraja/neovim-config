@@ -7,5 +7,14 @@ end
 vim.g.loaded = 1
 vim.g.loaded_netrwPlugin = 1
 
-nvimtree.setup({})
+vim.cmd([[ highlight NvimTreeIndentMarker guifg=#3FC5FF ]])
+nvimtree.setup({
+    actions = {
+        open_file = {
+            window_picker = {
+                enable = false,
+            },
+        },
+    },
+})
 
