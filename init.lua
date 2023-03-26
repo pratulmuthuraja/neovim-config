@@ -5,3 +5,5 @@ require("pratulmuthuraja.core.colorscheme")
 require("pratulmuthuraja.plugins.comment")
 require("pratulmuthuraja.plugins.nvim-tree")
 require("pratulmuthuraja.plugins.lualine")
+require("pratulmuthuraja.plugins.telescope")
+
