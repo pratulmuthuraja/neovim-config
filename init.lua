@@ -6,4 +6,4 @@ require("pratulmuthuraja.plugins.comment")
 require("pratulmuthuraja.plugins.nvim-tree")
 require("pratulmuthuraja.plugins.lualine")
 require("pratulmuthuraja.plugins.telescope")
-
+require("pratulmuthuraja.plugins.nvim-cmp")
