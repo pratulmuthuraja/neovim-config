@@ -7,3 +7,7 @@ require("pratulmuthuraja.plugins.nvim-tree")
 require("pratulmuthuraja.plugins.lualine")
 require("pratulmuthuraja.plugins.telescope")
 require("pratulmuthuraja.plugins.nvim-cmp")
+require("pratulmuthuraja.plugins.lsp.mason")
+require("pratulmuthuraja.plugins.lsp.lspsaga")
+require("pratulmuthuraja.plugins.lsp.lspconfig")
+
