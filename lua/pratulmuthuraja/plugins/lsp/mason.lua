@@ -25,6 +25,8 @@ mason_lspconfig.setup({
         "cssls",
         "tailwindcss",
         "marksman",
+        "markdown-toc",
+        "markdownlint",
     }
 })
 
